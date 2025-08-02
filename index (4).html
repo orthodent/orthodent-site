@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OrthoDent Dental Clinic</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="lang.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 data-lang="clinic_name">OrthoDent Dental Clinic</h1>
+    <nav>
+      <a href="#about" data-lang="about">О клинике</a>
+      <a href="#services" data-lang="services">Услуги</a>
+      <a href="#contact" data-lang="contacts">Контакты</a>
+    </nav>
+    <div class="lang-switcher">
+      <button onclick="setLang('ru')">RU</button>
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('az')">AZ</button>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2 data-lang="about_title">О клинике</h2>
+    <p data-lang="about_text">Полный спектр стоматологических услуг в Баку.</p>
+  </section>
+
+  <section id="services">
+    <h2 data-lang="services_title">Наши услуги</h2>
+    <ul>
+      <li data-lang="orthodontics">Ортодонтия</li>
+      <li data-lang="therapy">Терапия</li>
+      <li data-lang="prosthetics">Протезирование</li>
+      <li data-lang="surgery">Хирургия</li>
+      <li data-lang="periodontics">Пародонтология</li>
+      <li data-lang="children">Детская стоматология</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2 data-lang="contact_title">Контакты</h2>
+    <p data-lang="address">Əliəşrəf Əlizadə küçəsi 136A</p>
+    <p data-lang="phones">+99455268840, +994702168840</p>
+    <p data-lang="schedule">Пн–Сб: 9:00–19:00</p>
+    <a href="https://wa.me/99455268840">WhatsApp</a> |
+    <a href="https://instagram.com">Instagram</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 OrthoDent</p>
+  </footer>
+</body>
+</html>
